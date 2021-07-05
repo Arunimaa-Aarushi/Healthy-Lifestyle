@@ -16,14 +16,36 @@ font-family: 'Nanum Myeongjo', serif;
 .first {
     display: flex;
     margin-bottom: 100px;
-    background-image: url(images/shapes/Frame\ 58.jpg);
-    imag
 }
 
 .half {
     width: 50%;
     padding-left: 3%;
+} 
+
+.half-two {
+    width: 70%;
+    padding-left: 3%;
+    padding-right: 6%;
+    text-align: start;
+    font-size: 20;
 }
+
+.food {
+    width: 440px;
+    margin-right: 8%;
+}
+
+.second {
+    display: flex;
+    font-size: 20;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
 
 .link {
     text-decoration: none;
@@ -33,7 +55,7 @@ font-family: 'Nanum Myeongjo', serif;
     border-radius: 30px;
     font-size: smaller;
     font-weight: 900;
-
+   
 }
 
 .uno {

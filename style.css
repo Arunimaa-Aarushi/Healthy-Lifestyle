@@ -10,7 +10,8 @@ h1 {
 }
 
 body {
-font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 0%;
 }
 
 .first {
@@ -33,7 +34,7 @@ font-family: 'Nanum Myeongjo', serif;
 
 .food {
     width: 440px;
-    margin-right: 8%;
+   
 }
 
 .second {
@@ -78,6 +79,7 @@ font-family: 'Nanum Myeongjo', serif;
     text-align: center;
     box-shadow: 3px 3px 12px darkgray;
     border-radius: 10px;
+    padding-left: 35px;
 }
 
 .trio-elm {
@@ -85,21 +87,73 @@ font-family: 'Nanum Myeongjo', serif;
 }
 
 
-.recipe{
-    width: 60%;
-    margin:5% 5%;
-    padding: 10px;
-    box-shadow: 2px 2px 10px gray;
-    border-radius: 20px;
+
+.recipe-image img {
+    width: 100%;
 }
-.recipe-image img {width: 100%;}
     
 .title{
     text-align: center;
+    
 }
 
 
 .fourth {
-    display: flex;}
+    display: flex;
+    height: 500px;
+    margin-bottom: 200px;
+   
+   
+}
+
+.recipe-elm {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 5%;
+    padding: 10px;
+    margin-top: 18px;
+    height: 550px;
+}
+ 
+.recipe-one {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 15%;
+    margin-right: 20%;
+    padding: 10px;
+    margin-top: 18px;
+    height: 550px;
+}
+
+.recipe-two {
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 35%;
+    margin-right: 5%;
+    padding: 10px;
+    margin-top: 18px;
+    height: 550px;
+}
+
+    footer  {
+        text-align: center;
+        background-color: black;
+        margin: 0%;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        
+    }
+
+    footer p {
+        font-weight: 500;
+        color: white;
+    }
+
+    footer h3 {
+        color: gray;
+    }
    
 

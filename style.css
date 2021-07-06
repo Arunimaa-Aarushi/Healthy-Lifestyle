@@ -15,7 +15,7 @@ font-family: 'Nanum Myeongjo', serif;
 
 .first {
     display: flex;
-    margin-bottom: 100px;
+   
 }
 
 .half {
@@ -59,6 +59,27 @@ font-family: 'Nanum Myeongjo', serif;
 }
 
 .uno {
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     line-height: normal;
 }
+
+.duo {
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.third {
+    display: flex;
+    margin: 5% 20% ;
+    text-align: center;
+    box-shadow: 3px 3px 12px darkgray;
+    border-radius: 10px;
+}
+
+.trio-elm {
+   padding: 50px;
+}
+
+
